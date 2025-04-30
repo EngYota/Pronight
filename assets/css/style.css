@@ -210,7 +210,7 @@ select:focus {
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
-	background: #331b88 !important;
+	background: #30c36e !important;
 	border-radius:5px;
 	transition:all .4s ease;
 }
@@ -1371,5 +1371,136 @@ footer {
     border: 1px solid #120F2D;
 }
 
+/* --------------- download app */
+.download{
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  padding: 55px 0 50px;
+  height: auto;
+  position: relative;
+  z-index: 0;
+}
+.download .overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 60px 0;
+  background: #0000007e;
+  z-index: 1;
+  height: 100%;
+}
+
+.download-wpr .download-contain {
+  padding: 40px 40px 40px 0 ;
+  text-align: right;
+
+}
+.download-wpr .download-contain h2{
+  font-size: 22px;
+  width: 70%;
+  margin-bottom: 15px;
+}
+.download-wpr .download-contain img{
+  width: 347px;
+  margin-top: 5px;
+}
+.download-wpr .download-image img{
+  width: 85%;
+  height: auto;
+  margin-top: -48px;
+}
+
+/* ================================================== Login-page =========================================== */
+.page-main{
+  background-image: url(../img/bg/4.gif);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.page-content{
+  position: relative;
+  padding: 70px 17% 55px;
+}
+.login-content{
+  background: #ffffff54;
+  margin: 0px 0px;
+  border-radius: 8px;
+  /* border: 1px solid #62ba87; */
+  -webkit-box-shadow: 0px 15px 20px 0px rgba(77, 65, 225, 0.15);
+  box-shadow: 0px 15px 20px 0px rgba(77, 65, 225, 0.15);
+}
+.login-section .login-media-row {
+  /* background-color: #ffffff54; */
+  display: block;
+  align-items: center; 
+  justify-content: center;
+  border-radius: 0 8px 8px 0;
+  /* border-right: 1px solid #62ba87; */
+  border-left: 2px solid #62ba87;
+}
+
+.login-detail {
+  padding: 30px 25px 65px 39px;
+  border-radius: 10px;  
+}
+.login-detail .login-logo {
+  text-align: center;
+  border-bottom: 1px solid #efefef;
+  padding-bottom: 30px;
+  margin-bottom: 15px;
+}
+.login-detail .login-logo img{
+    margin: 0px auto 10px;
+    width: 150px;
+    height: auto;
+}
+.login-detail .login-detail-inner {
+  padding: 20px 20px;
+}
+.login-detail .login-detail-inner .login-title span{
+  font-size: 19px;
+  display: block;
+  margin-bottom: 18px;
+  font-weight: 500;
+  color: #fff;
+}
+.login-detail .login-detail-inner .login-title span.otp{
+  margin-bottom: 5px;
+}
+.login-detail .login-detail-inner .login-title p{
+  margin-bottom: 40px;
+  color: #fafafa;
+  font-size: 16px;
+}
+.login-detail .login-detail-inner input{
+  text-align: right;
+    height: 54px;
+    border-radius: 11px;
+}
+.login-detail .login-detail-inner .site-button{
+    outline: none;
+    color: #fff;
+    padding: 11px 30px;
+    border-radius: 10px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: #62ba87;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0) !important;
+    transition: all 0.3s ease !important;
+    text-shadow: 0 0 0 #fff, 400px 0 0 #fff;
+    margin-top: 10px;
+    text-align: center;
+}
+.login-content .login-background img{
+  margin-top: 45px;
+}
 
 
