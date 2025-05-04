@@ -323,7 +323,7 @@ select:focus {
   letter-spacing: .8px;
   font-family: var(--font-2);
   height: 9rem;
-  margin-left: 5rem; }
+  margin-left: 30px; }
 
 .navbar .navbar-expand-lg .navbar-nav .nav-item:last-child .nav-link,
 .navbar .navbar-nav .nav-item:last-child .nav-link {
@@ -451,12 +451,29 @@ select:focus {
   display: inline-block;
   text-align: center;
   line-height: 4rem;
+  margin-top: 25px;
   text-transform: capitalize; }
   .btn-2:hover {
     background-color: var(--white-color);
     color: var(--heading-color);
     box-shadow: 0px 15px 20px 0px rgba(77, 65, 225, 0.15); }
 
+    .btn-3{
+      -webkit-border-radius: 5px;
+      border-radius: 5px;
+      width: 60px;
+      height: 4rem;
+      font-weight: 500;
+      font-size:30px;
+      color:  var(--theme-color);
+      background-color:var(--white-color);
+      display: inline-block;
+      text-align: center;
+      line-height: 4rem;
+      margin-top: 25px;
+      margin-right: 20px;
+      box-shadow: 5px 10px 20px 0px rgb(48 195 110 / 14%);
+    }
 /*-------------------------------------------------------
 3. Theme default css 
 ---------------------------------------------------------*/
@@ -1403,8 +1420,9 @@ footer {
   margin-bottom: 15px;
 }
 .download-wpr .download-contain img{
-  width: 347px;
+  width: 160px;
   margin-top: 5px;
+  margin-left: 10px;
 }
 .download-wpr .download-image img{
   width: 85%;
@@ -1502,5 +1520,51 @@ footer {
 .login-content .login-background img{
   margin-top: 45px;
 }
-
-
+/* ============================ ltr-style */
+[dir="ltr"] .navbar .navbar-expand-lg .navbar-nav .nav-link,
+[dir="ltr"] .navbar .navbar-nav .nav-link{
+  margin-right: 30px;
+  margin-left: 0;
+}
+[dir="ltr"] .navbar .navbar-expand-lg .navbar-nav .nav-item:last-child .nav-link, 
+[dir="ltr"] .navbar .navbar-nav .nav-item:last-child .nav-link {
+  margin-right: 30px;
+}
+[dir="ltr"] .hro-btn .theme-btn {
+  margin-right: 0;
+  margin-left: 2.5rem;
+}
+[dir="ltr"] .hro-btn .theme-btn i{
+  float: left;
+  padding-right: 3px;
+}
+[dir="ltr"] .feature-wpr .feature-box{
+  margin-left: 0px;
+  margin-right: 20px;
+  padding-left: 30px;
+  padding-right: 10px;
+}
+[dir="ltr"] .feature-box .feature-icon{
+  float: left;
+  margin-right: 0;
+  margin-left: -65px;
+}
+[dir="ltr"] .feature-box .feature-info{
+  padding-left: 20px;
+  margin-right: 0;
+}
+[dir="ltr"] .download-wpr .download-contain{
+  text-align: left;
+}
+[dir="ltr"] .accordion-button::after{
+  margin-right: 0;
+  margin-left: auto;
+}
+[dir="ltr"] .login-section .login-media-row{
+  border-right: 2px solid #62ba87;
+  border-left: none;
+}
+[dir="ltr"] .btn-3{
+  margin-left: 20px;
+  margin-right: 0;
+}
