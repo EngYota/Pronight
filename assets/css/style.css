@@ -1432,10 +1432,11 @@ footer {
 
 /* ================================================== Login-page =========================================== */
 .page-main{
-  background-image: url(../img/bg/4.gif);
+  /* background-image: url(../img/bg/4.gif);
   background-position: center;
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
+  background: var(--white-color);
   position: relative;
   height: 100vh !important;
 }
@@ -1445,21 +1446,22 @@ footer {
   height: 100vh;
 }
 .login-content{
-  background: #ffffff54;
+  background: #62ba87;
   margin: 0px 0px;
   border-radius: 8px;
   /* border: 1px solid #62ba87; */
   -webkit-box-shadow: 0px 15px 20px 0px rgba(77, 65, 225, 0.15);
   box-shadow: 0px 15px 20px 0px rgba(77, 65, 225, 0.15);
+  border: 1px solid #eee;
 }
 .login-section .login-media-row {
-  /* background-color: #ffffff54; */
+  /* background-color: #ffffff54; */ 
   display: block;
-  align-items: center; 
+  align-items: center;
   justify-content: center;
   border-radius: 0 8px 8px 0;
   /* border-right: 1px solid #62ba87; */
-  border-left: 2px solid #62ba87;
+  border-left: 2px solid #ffffff;
 }
 
 .login-detail {
@@ -1485,14 +1487,14 @@ footer {
   display: block;
   margin-bottom: 18px;
   font-weight: 500;
-  color: #fff;
+  color: #ffffff;
 }
 .login-detail .login-detail-inner .login-title span.otp{
   margin-bottom: 5px;
 }
 .login-detail .login-detail-inner .login-title p{
   margin-bottom: 40px;
-  color: #fafafa;
+  color: #fbfbfb;
   font-size: 16px;
 }
 .login-detail .login-detail-inner input{
@@ -1501,23 +1503,23 @@ footer {
     border-radius: 11px;
 }
 .login-detail .login-detail-inner .site-button{
-    outline: none;
-    color: #fff;
-    padding: 11px 30px;
-    border-radius: 10px;
-    width: 100%;
-    position: relative;
-    overflow: hidden;
-    cursor: pointer;
-    background-color: #62ba87;
-    border: none;
-    font-size: 16px;
-    font-weight: 600;
-    color: rgba(0, 0, 0, 0) !important;
-    transition: all 0.3s ease !important;
-    text-shadow: 0 0 0 #fff, 400px 0 0 #fff;
-    margin-top: 10px;
-    text-align: center;
+  outline: none;
+  color: #fff;
+  padding: 11px 30px;
+  border-radius: 10px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  background-color: #ffffff;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: rgb(98 186 135) !important;
+  transition: all 0.3s ease !important;
+  text-shadow: 0 0 0 #fff, 400px 0 0 #fff;
+  margin-top: 10px;
+  text-align: center;
 }
 .login-content .login-background img{
   margin-top: 45px;
