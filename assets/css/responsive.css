@@ -748,7 +748,22 @@
 }
 
 @media only screen and (max-width: 576px) {
+	.login-section .login-media-row{
+		border: none;
+	}
+	.login-content .login-background img {
+	display: none;
+	}
+	.page-content{
+		padding: 70px 5% 55px;
+	}
+	.login-detail{
+		padding: 30px 14px 65px 15px;
+	}
 
+	.login-content .otp-input input{
+		margin-left: 12px;
+	}
 }
 
 

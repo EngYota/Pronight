@@ -1437,10 +1437,12 @@ footer {
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
+  height: 100vh !important;
 }
 .page-content{
   position: relative;
   padding: 70px 17% 55px;
+  height: 100vh;
 }
 .login-content{
   background: #ffffff54;
@@ -1520,6 +1522,18 @@ footer {
 .login-content .login-background img{
   margin-top: 45px;
 }
+.login-content .otp-input input{
+  border: 1px solid #eee;
+  background: #ffffff3b;
+  width: 60px;
+  margin-left: 15px;
+}
+.login-content .login-form p{
+  color: #fff;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
 /* ============================ ltr-style */
 [dir="ltr"] .navbar .navbar-expand-lg .navbar-nav .nav-link,
 [dir="ltr"] .navbar .navbar-nav .nav-link{

@@ -36,7 +36,7 @@
  <div id="main-wrapper"> 
  	
 	
-	
+	<div class="clearfix"></div>
 
 	<main class="main page-main">
 		<div class="page-content">
@@ -47,7 +47,7 @@
                         <div class="row">
                             <div class="col-xl-6 col-lg-6 col-md-12 login-media-row">
 								<div class="login-background">
-									<img src="assets/img/icons/Mobile login-bro.png"/>
+									<img src="assets/img/icons/Enter OTP-pana.png"/>
 								</div>
                             </div>
                             <div class="col-xl-6 col-lg-6 col-md-12">
@@ -60,8 +60,8 @@
                                     <div class="login-detail-inner">
                                         <div class="login-title text-center">
                                             <div class="title-heading">
-                                                <span>تسجيل الدخول</span>
-                                               <p>"أهلًا بكم في برونايت، لحظاتكم تبدأ من هنا! نتمنى لكم تجربة أنيقة ومميزة."</p>
+                                                <span> رمز التحقق </span>
+                                               <p>"تم إرسال رمز التحقق من فضلك ادخل الرمز"</p>
                                             </div>
                                         </div>
                                       <form>
@@ -69,12 +69,17 @@
                                             <div class="row">
                                                  <div class="col-lg-12">
                                                     <div class="form-group mb-3">
-                                                       <input name="phone" type="tel" required="" class="form-control" placeholder="رقم الهاتف">
+                                                        <div class="otp-input">
+                                                            <input type="number" min="0" max="9" placeholder="*" required>
+                                                            <input type="number" min="0" max="9" placeholder="*" required>
+                                                            <input type="number" min="0" max="9" placeholder="*" required>
+                                                            <input type="number" min="0" max="9" placeholder="*" required>
+                                                        </div>
                                                      </div>
                                                  </div>
                                                    <div class="col-md-12">
                                                     <div class="form-group">
-                                                        <button type="submit" class="site-button"> المتابعة </button>
+                                                    <p>إعادة إرسال الرقم خلال (30 ثانية )</p>
                                                     </div>
                                                    </div>
                                             </div>
