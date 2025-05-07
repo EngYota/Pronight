@@ -1442,7 +1442,7 @@ footer {
 }
 .page-content{
   position: relative;
-  padding: 70px 17% 55px;
+  padding: 40px 17% 55px;
   height: 100vh;
 }
 .login-content{
@@ -1465,7 +1465,7 @@ footer {
 }
 
 .login-detail {
-  padding: 30px 25px 65px 39px;
+  padding: 30px 25px 20px 20px;
   border-radius: 10px;  
 }
 .login-detail .login-logo {
@@ -1499,7 +1499,7 @@ footer {
 }
 .login-detail .login-detail-inner input{
   text-align: right;
-    height: 54px;
+    height: 50px;
     border-radius: 11px;
 }
 .login-detail .login-detail-inner .site-button{
@@ -1535,7 +1535,74 @@ footer {
   font-size: 16px;
   margin-top: 20px;
 }
-
+.login-content .login-form .login-p{font-size: 14px;}
+.login-content .login-form .login-p a{
+  color: #f3be1e;
+  font-size: 15px;
+}
+.avatar-upload {
+	position: relative;
+	max-width: 120px;
+	margin: 15px auto;
+  }
+  .avatar-upload .avatar-edit {
+	position: absolute;
+	right: 12px;
+	z-index: 1;
+	top: 10px;
+  }
+  .avatar-upload .avatar-edit input {
+	display: none;
+  }
+  .avatar-upload .avatar-edit input + label {
+	display: inline-block;
+	width: 34px;
+	height: 34px;
+	margin-bottom: 0;
+	border-radius: 100%;
+	background: #FFFFFF;
+	border: 1px solid transparent;
+	box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.12);
+	cursor: pointer;
+	font-weight: normal;
+	transition: all 0.2s ease-in-out;
+  }
+  .avatar-upload .avatar-edit input + label:hover {
+	background: #f1f1f1;
+	border-color: #d6d6d6;
+  }
+  .avatar-upload .avatar-edit input + label:after {
+    font-family: 'IcoFont';
+    content: "\ec55";
+	color: #757575;
+	position: absolute;
+  top: 4px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  margin: auto;
+  font-size: 21px;
+  }
+  .avatar-upload .avatar-preview {
+	width: 130px;
+	height: 130px;
+	position: relative;
+	border-radius: 100%;
+	border: 6px solid #F8F8F8;
+	box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+  }
+  .avatar-upload .avatar-preview > div {
+    width: 70%;
+    height: 70%;
+    margin: 20px auto;
+    border-radius: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .register-inner p{
+    margin-bottom: 5px !important;
+  }
 /* ============================ ltr-style */
 [dir="ltr"] .navbar .navbar-expand-lg .navbar-nav .nav-link,
 [dir="ltr"] .navbar .navbar-nav .nav-link{
